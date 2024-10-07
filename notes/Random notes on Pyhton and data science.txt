@@ -1,0 +1,29 @@
+Yes, you can use NumPy functions like np.radians() on a Pandas DataFrame or Series. Pandas is built on top of NumPy, so its DataFrame and Series objects are compatible with NumPy functions.
+
+----------------------------------------------
+
+Yes, Cartesian coordinates (x, y, z) can be considered ratio data. Ratio data is a type of quantitative data that has a meaningful zero point and allows for both differences and ratios to be calculated. In the case of Cartesian coordinates:
+
+- Zero Point: The origin (0, 0, 0) serves as a meaningful zero point.
+- Differences: You can calculate the distance between any two points.
+- Ratios: You can compare distances and say, for example, that one distance is twice as long as another.
+
+This makes Cartesian coordinates suitable for various mathematical and analytical operations that require ratio data properties²⁵.
+
+If you have any more questions or need further clarification, feel free to ask!
+
+Source: Conversation with Copilot, 10/2/2024
+    (1) Coordinate system - Wikipedia. https://en.wikipedia.org/wiki/Coordinate_system.
+    (2) Cartesian coordinates - Math Insight. https://mathinsight.org/cartesian_coordinates.
+    (3) Cartesian coordinates with fixed "aspect ratio" — coord_fixed - ggplot2. https://ggplot2.tidyverse.org/reference/coord_fixed.html.
+    (4) Geodesy, Geographic Datums & Coordinate Systems. http://www.geo.utexas.edu/courses/371c/lectures/Fall2021/Datums_GCSs_Fall21.pdf.
+    (5) (x,y,z)z - Harvard University. https://people.math.harvard.edu/~knill/teaching/summer2006/handouts/coordinates.pdf.
+
+    -----------------------------------------
+
+    Standardize the Data
+Before performing KNN imputation, we will . Standardization is important because KNN uses distance metrics, which can be skewed if the scales of different features are very different.
+
+
+
+ 
